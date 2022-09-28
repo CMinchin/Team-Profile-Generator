@@ -5,4 +5,41 @@ nav {
     text-align: center;
 }
 
-html {margin: 0px;}
+body {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+}
+
+div {
+    flex: 200px 0 0;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 5px #888;
+    margin: 10px;
+    border: 1px solid #888;
+}
+
+div > h2 {
+    background-color: #0077F7;
+    margin: 0px;
+    padding: 5px 10px;
+    color: white;
+}
+
+div > div {
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+}
+
+p {
+    border: 1px solid #888;
+    padding: 6px;
+    margin: 0px;
+    background-color: white;
+}
