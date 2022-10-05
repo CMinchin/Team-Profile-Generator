@@ -91,7 +91,7 @@ function employeeHTML(employee) {
             <div>
                 <p>ID: ${employee.getId()}</p>
                 <p>Email: ${employee.getId()}</p>
-                <p>${'Office number' ? employee.officeNumber : 'Github' ? employee.github : 'School' ? employee.school : 'none'}: ${employee.officeNumber || employee.github || employee.school || 'none'}</p>
+                <p>${employee.officeNumber ? 'Office number' : employee.github ? 'Github' : employee.school ? 'School' : 'none'}: ${employee.officeNumber || employee.github || employee.school || 'none'}</p>
             </div>
         </div>`
 }
